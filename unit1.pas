@@ -37,7 +37,7 @@ begin
     memo1.Lines.Add(inttostr(i));
     if i=2 then break;
   end;
-  memo1.Lines.Add('fin '+inttostr(i));
+  memo1.Lines.Add('ban '+inttostr(i));
 
 end;
 
