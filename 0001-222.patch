@@ -1,0 +1,25 @@
+From ea50a3857412a460fe525ed1f0ddc9ba65fae281 Mon Sep 17 00:00:00 2001
+From: 8a55 <8a55@mail.ru>
+Date: Wed, 7 Jun 2017 15:55:10 +0300
+Subject: [PATCH] 222
+
+---
+ unit1.pas | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/unit1.pas b/unit1.pas
+index e4c9205..433d05b 100644
+--- a/unit1.pas
++++ b/unit1.pas
+@@ -37,7 +37,7 @@ begin
+     memo1.Lines.Add(inttostr(i));
+     if i=2 then break;
+   end;
+-  memo1.Lines.Add('fin '+inttostr(i));
++  memo1.Lines.Add('fan '+inttostr(i));
+ 
+ end;
+ 
+--
+libgit2 0.22.0
+
